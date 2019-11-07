@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bt1.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <title>Bài tập 1</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="alert alert-success " role="alert">
+            Thông tin sản phẩm
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Mã sản phẩm :</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Tên sản phẩm :</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Số lượng :</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationCustom02">Đơn giá</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationCustom02">Đơn vị tính</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Chiếc" required>
+            </div>
+        </div>
+        <div class="alert alert-primary form-row ">
+            <label class="form-check-label col-md-1">Thuế :</label>
+            <div class="form-check col-md-1">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    VAT(10%)
+                </label>
+            </div>
+            <div class="form-check col-md-1">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Dịch vụ (5%)
+                </label>
+            </div>
+            <div class="form-check col-md-1">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Khác (20%)
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success mb-2 text-center text-uppercase">Tính tiền</button>
+        </div>
+    </div>
+</body>
+
+</html>
